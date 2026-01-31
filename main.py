@@ -2,7 +2,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ConversationHandler
 from handlers import user, agent
 import os
 
-app = ApplicationBuilder().token(os.getenv("BOT_TOKEN")).build()
+app = ApplicationBuilder().token(os.getenv("8558141334:AAHZ4ZbLVTufnlKU4pPKBIdKf5fgI-EBI7o")).build()
 
 # User conversation
 conv_handler = ConversationHandler(
