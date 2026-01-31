@@ -2,7 +2,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ConversationHandler
 from handlers import user, agent
 import os
 
-app = ApplicationBuilder().token(os.getenv("8535938389:AAHx-Dx0qnY60cN2MubXp98Piq8y6j7m5cY")).build()
+app = ApplicationBuilder().token(os.getenv("BOT_TOKEN=8535938389:AAHx-Dx0qnY60cN2MubXp98Piq8y6j7m5cY")).build()
 
 # User conversation
 conv_handler = ConversationHandler(
@@ -25,3 +25,4 @@ app.add_handler(CommandHandler("mycases", agent.my_cases))
 app.add_handler(CommandHandler("help", agent.agent_help))
 
 app.run_polling()
+up
