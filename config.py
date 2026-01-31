@@ -4,7 +4,7 @@ import os
 BOT_OWNER_ID = 1675295056
 
 # Bot Token from @BotFather
-BOT_TOKEN = os.getenv("8558141334:AAHZ4ZbLVTufnlKU4pPKBIdKf5fgI-EBI7o")
+BOT_TOKEN = os.getenv("8535938389:AAHx-Dx0qnY60cN2MubXp98Piq8y6j7m5cY")
 
 # Agents: Telegram IDs, empty initially
 AGENTS = []
