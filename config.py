@@ -1,6 +1,6 @@
 import os
 
-# Owner Telegram ID (8558141334:AAHZ4ZbLVTufnlKU4pPKBIdKf5fgI-EBI7o)
+# Owner Telegram ID (replace with your Telegram ID)
 BOT_OWNER_ID = 1675295056
 
 # Bot Token from @BotFather
